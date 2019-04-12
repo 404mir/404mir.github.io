@@ -19,17 +19,18 @@
 
 *{box-sizing: border-box}
 body{background-color: #fff;color: #24292e;line-height: 1.4;margin: 0;padding: 0;}
-.header{background-color: #24292e;padding-bottom: 12px;padding-top: 12px;z-index: 32;line-height: 1.5!important;}
+.header{background-color: #24292e;padding-bottom: 10px;padding-top: 10px;z-index: 32;line-height: 1.5!important;}
 .tabs{display: table;table-layout: fixed;width: 100%;}
 .tabs>a:first-child{border-left:0;}
 .tabs>a.home{background-color: #fff;border-bottom-color:#fff;border-right:0.5px solid #dfe2e5;color: #444d56}
 .tabs>a{border-bottom:0.5px solid #dfe2e5;display: table-cell;font-size:14px;font-weight:600;padding:10px 0; text-align:center;}
 a{color:#0366d6;text-decoration: none;}
 .tabs>a:last-child{border-right:0;background-color: #fafbfc;}
-.svg{text-align:center;margin-top: 1px!important;}
+.svg{text-align:center;margin-top: 0.5px!important;margin-bottom: 0.5px!important;}
 .bg{background-color: #fff;}
 .bg_2{padding-top:18px!important;padding-left: 32px!important;padding-right: 32px!important;padding-bottom: 32px!important; font-size: 15px;line-height: 1.5;word-wrap: break-word;}
 	.h1{margin-top:0;border-bottom: 0.5px solid #eaecef;padding-bottom: .3em;}
+	.text{color: #fff;font-weight: 400;text-align:center;margin: 0;}
 
 
 </style> 
@@ -48,7 +49,7 @@ a{color:#0366d6;text-decoration: none;}
 </svg>
 </p>
 
-<div class="text"></div>
+<p class="text">778传奇，一款支持双端的传奇</p>
 </header>
 <nav class="tabs">
 <a href="/" class="home">首页</a>
@@ -57,39 +58,34 @@ a{color:#0366d6;text-decoration: none;}
 <div class="bg">
 <div class="bg_2">
 
-<h2 class="h1">404传奇</h2>
-<p>一款三端复古传奇</p>
+<h2 class="h1">778传奇</h2>
+<p>《热血传奇》是盛趣游戏2001年推出的一款大型多人在线角色扮演游戏（MMORPG）。
+该游戏具有战士、魔法师和道士三种职业，所有情节的发生、经验值取得以及各种打猎、采矿等活动都是在网络上即时发生。
+《热血传奇》包括白天、黑夜、贸易、物品等观念，玩家可以通过采矿、打猎等来获得货币，利用货币进行贸易。整个游戏充满了魔力，具有东方色彩。</p>
 <h3>游戏截图</h3>
-<pre><code>相册地址		:http://kbengine.org
+<pre><code>http://www.778mir.org/photo
 </code></pre>
 
 <h3>网址</h3>
-<pre><code>地址1			:http://kbengine.org
+<pre><code>http://www.778mir.org/
 </code></pre>
 
 <h3>客户端</h3>
-<pre><code>Sources		: https://github.com/kbengine/kbengine/releases/latest
+<pre><code>http://www.778mir.org/client
 </code></pre>
 
 <h3>其他自媒体</h3>
-<pre><code>Unity3d		: https://github.com/kbengine/kbengine_unity3d_demo/releases/latest
-Unity3d		: https://github.com/kbengine/kbengine_unity3d_warring/releases/latest
-UE4		: https://github.com/kbengine/kbengine_ue4_demo/releases/latest
-Ogre		: https://github.com/kbengine/kbengine_ogre_demo/releases/latest
-Cocos2d_js	: https://github.com/kbengine/kbengine_cocos2d_js_demo/releases/latest
-Godot Engine	: https://github.com/krogank9/kbe_godot_demo/releases/latest
+<pre><code>快手		: https://github.com/kbengine/kbengine_unity3d_demo/releases/latest
+抖音		: https://github.com/kbengine/kbengine_unity3d_warring/releases/latest
+B站		: https://github.com/kbengine/kbengine_ue4_demo/releases/latest
 </code></pre>
 
-<h3>其他下载</h3>
-<pre><code>Docs		: http://kbengine.org/docs/
-API		: https://github.com/kbengine/kbengine/tree/master/docs
-</code></pre>
 
 <h3>联系方式</h3>
-<pre><code>Email		: kbesrv?gmail.com
-QQ		: 3603661
-BBS		: http://bbs.kbengine.org
-Maillist	: https://groups.google.com/d/forum/kbengine_maillist
+<pre><code>Email		: k3v@gmail.com
+QQ		: 360344661
+BBS		: http://www.778mir.org/
+Maillist	: http://www.778mir.org/
 </code></pre>
 
 <h3>视频教程</h3>
@@ -98,15 +94,7 @@ http://v.youku.com/v_show/id_XMjgyMjM0MTYwNA==.html?spm=a2h3j.8428770.3416059.1
 </code></pre>
 
 <h3>更新日志</h3>
-<pre><code>一款开源的MMOG游戏服务端引擎，
-仅Python脚本即可简单高效的完成任何游戏逻辑(支持热更新)，
-使用配套客户端插件能够快速与（Unity3D、UE4、OGRE、HTML5、等等）结合形成一个完整的客户端。
-
-引擎使用C++编写，开发者无需重复的实现游戏服务端通用的底层技术，
-将精力真正集中到游戏开发层面上来，稳定可靠并且快速的打造各种网络游戏。
-
-(经常被问到承载上限，KBEngine底层架构被设计为多进程分布式动态负载均衡方案，
-理论上只需要不断扩展硬件就能够不断增加承载上限，单台机器的承载上限取决于游戏逻辑本身的复杂度。)
+<pre><code>曾经有各种各样的生物生活在这神秘的玛法大陆。人类的力量在其中是如此弱小，他们在这个大陆上被迫建立各种组织，以便抵抗那些有着超自然能力的野兽和怪物。然而，过了一段时间，一个神秘的种族的出现改变了这个大陆的势力分配，他们迅速的学习各种能力，很快的取得了非凡的能力，占据了这个大陆的领导地位。
 </code></pre>
 </div>
 </div>
